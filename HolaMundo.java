@@ -239,5 +239,28 @@ class HolaMundo {
             for(int ater2 = 0; ater2 < aterisco; ater2++) { 
                 System.out.print("*"); } 
                 System.out.println("");}
+    //ARREGLOS Se define primero tamaño de arreglo 
+    // en tiempo de ejecución no se puede cambiar el tamaño del arreglo
+    //declaracion
+    String arregloNombres[];
+    //inicializar----> EL NUMERO dentro de lso corchetes define el tamaño del arreglo
+    arregloNombres=new String[4];
+    arregloNombres[0]="Juan";
+    arregloNombres[1]="Pedro";
+    arregloNombres[2]="Mario";
+    arregloNombres[3]="Jose";
+    System.out.println(arregloNombres[0]);
+    System.out.println(arregloNombres[1]);
+    System.out.println(arregloNombres[2]);
+    System.out.println(arregloNombres[3]);
+    // recorrer Arreglo con for
+    //obtener el tamaño del arreglo para definir las repticiones del for
+    int tamanioArray=arregloNombres.length;
+    for(int i = 0; i <tamanioArray; i++) {
+        System.out.println(arregloNombres[i]+" desde el for ");
     }
+
+    }
+
+
 }
