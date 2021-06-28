@@ -259,8 +259,22 @@ class HolaMundo {
     for(int i = 0; i <tamanioArray; i++) {
         System.out.println(arregloNombres[i]+" desde el for ");
     }
-
+    // Metodo dos para arreglos 
+    String arregloApellidos[]={"peñate","morales","hernandez","lopez"};
+    int tamanioArray2=arregloApellidos.length;
+    for(int i = 0; i <tamanioArray2; i++) {
+        System.out.println(arregloApellidos[i]+" apellidos desde el for ");
     }
-
-
+    // metodo forEACH
+    for (String string : arregloApellidos) {
+        System.out.println(string +" desde el foreach ");
+    }
+    //MATRIZ
+        int matriz[][] = new int[5][5];//filas //columnas
+        for(int i=0;i<matriz.length;i++) {
+        for(int j=0;j<matriz[i].length;j++) {
+        matriz[i][j] = (int)(Math.random()*15+1);
+        }
+        }
+    }
 }
