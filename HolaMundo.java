@@ -275,6 +275,19 @@ class HolaMundo {
         for(int j=0;j<matriz[i].length;j++) {
         matriz[i][j] = (int)(Math.random()*15+1);
         }
-        }
+        }        
+        
+        //MATRIZ
+        int matriz2[][] = new int[5][5];//filas //columnas
+        for(int i2=0;i2<matriz.length;i2++) {
+        for(int j2=0;j2<matriz[i2].length;j2++) {
+        matriz[i2][j2] = (int)(Math.random()*15+1);
+        }}
+        //MATRIZ
+        int matriz2[][] = new int[5][5];//filas //columnas
+        for(int i2=0;i2<matriz.length;i2++) {
+        for(int j2=0;j2<matriz[i2].length;j2++) {
+        matriz[i2][j2] = (int)(Math.random()*15+1);
+        }}
     }
 }
